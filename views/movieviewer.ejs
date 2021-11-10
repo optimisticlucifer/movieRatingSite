@@ -1,0 +1,33 @@
+<%- include("header") -%>
+<div id="movieInfo">
+    <h2>movies infomation</h2>
+    <div class="thumbnails">
+        <% movies.forEach(element => { %>
+            <div class="thumbnail">
+                <a href="/movie/<%= element.name %> "><img src="<%= element.img %>"  alt="<%= element.name %>" width="150px" height="150px"></a>
+                <a href="/movie/<%= element.name %> "><h5><%= element.name %></h5></a>
+                <a href="/movie/<%= element.name %> "><p><%= element.rating %> </p></a>
+                <a href="/movie/<%= element.name %> "><p><%= element.releasedate %> </p></a>
+                <a href="/movie/<%= element.name %> "><p><%= element.genre %> </p></a>
+            </div>
+        <% }) %>
+    </div>
+</div>
+
+<footer>
+    Made with ❣ by Group 19
+</footer>
+
+<script>
+
+    var genre = document.getElementById("genre")
+    var opts = document.getElementById("opts")
+    genre.onmouseover = () => {
+        opts.style.display = "block";
+    }
+    genre.onmouseout = () => {
+        opts.style.display = "none";
+    }
+</script>
+</body>
+</html>

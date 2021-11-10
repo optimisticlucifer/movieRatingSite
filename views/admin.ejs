@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD Movie</title>
+</head>
+<style>
+    *{
+        padding: 0rem;
+        margin: 0rem;
+    }
+    body{
+        background-color: gray;
+    }
+    .container{
+        margin: 10% auto;
+        width: 50%;
+        background-color: aliceblue;
+        padding: 2rem;
+        border-radius: 5%;
+
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    form *{
+        padding: 0.4rem;
+        margin: 1rem;
+    }
+    input{
+        width: 300px;
+    }
+</style>
+<body>
+    <div class="container">
+        <form action="addmovie" method="post">
+            <input type="text" name="name" placeholder="Enter Movie Name">
+            <input type="text" name="genre" placeholder="Enter Movie Genre">
+            <input type="text" name="description" placeholder="Enter Movie description">
+            <input type="text" name="imagelink" placeholder="Enter Movie image link">
+            <input type="text" name="releasedate" placeholder="Enter Movie releasedate(D/M/YYYY)">
+            <input type="number" name="rating" placeholder="Enter Movie Initial Rating" >
+            <input type="number" name="numofrating" placeholder="Enter Movie Initial Number of Rating">
+            <button type="submit"> Submit </button>
+        </form>
+    </div>
+</body>
+</html>

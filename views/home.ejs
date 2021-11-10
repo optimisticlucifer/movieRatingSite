@@ -1,0 +1,43 @@
+
+    <%- include("header") -%>
+    <div class="container">
+        <br>
+
+        <div id="movieInfo">
+            <h2>movies infomation</h2>
+            <div class="thumbnails">
+                <% movies.forEach(element => { %>
+                    <div class="thumbnail">
+                        <a href="/movie/<%= element.name %> "><img src="<%= element.img %>"  alt="<%= element.name %>" width="150px" height="150px"></a>
+                        <a href="/movie/<%= element.name %> "><h5><%= element.name %></h5></a>
+                        <a href="/movie/<%= element.name %> "><p><%= element.rating %> </p></a>
+                        <a href="/movie/<%= element.name %> "><p><%= element.releasedate %> </p></a>
+                        <a href="/movie/<%= element.name %> "><p><%= element.genre %> </p></a>
+                    </div>
+                <% }) %>
+            </div>
+        </div>
+
+        <div id="ratingForm">
+            <h1>Submit your Ratings</h1>
+            <form action="submit" method="post">
+                <label for="moviename">Name</label>
+                <select name="moviename" id="moviename">
+                    <% movies.forEach(e=> { %>
+                        <option value=<%=e.name %> ><%= e.name %>
+                        </option>
+                        <% }) %>
+                </select>
+
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="10" value="5" class="slider" id="myRange" name="ratinginput">
+                    <p id="values"></p>
+                </div>
+
+                <button onclick="aftersubmit()">Submit</button>
+                <p id="done"></p>
+            </form>
+        </div>
+    </div>
+    <%- include("footer") -%>
+

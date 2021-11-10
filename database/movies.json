@@ -1,0 +1,255 @@
+[{
+  "_id": {
+    "$oid": "6187b3dece7583577c85c4e2"
+  },
+  "name": "twilight",
+  "rating": 8,
+  "description": "Twilight is a 2008 American romantic fantasy film based on Stephenie Meyer's 2005 novel of the same name. Directed by Catherine Hardwicke, the film stars Kristen Stewart and Robert Pattinson. It is the first film in The Twilight Saga film series. This film focuses on the development of the relationship between Bella Swan (a teenage girl) and Edward Cullen (a vampire), and the subsequent efforts of Edward and his family to keep Bella safe from a coven of evil vampires.",
+  "numofrating": 4,
+  "releasedate": "7/8/2012",
+  "img": "https://cdn.entries.clios.com/styles/clio_aotw_ems_image_details_retina/s3/entry_attachments/image/51/1446/22590/77045/Y6-TR6niNoYPx11gE5lCCufBrKF1E-5lCAyN_7C1myE.jpg/Y6-TR6niNoYPx11gE5lCCufBrKF1E-5lCAyN_7C1myE.jpg",
+  "genre": "romantic"
+},{
+  "_id": {
+    "$oid": "6188db2efadf8c085119dd42"
+  },
+  "name": "spider-man",
+  "rating": 8,
+  "description": "The fictional character Spider-Man, a comic book superhero created by Stan Lee and Steve Ditko and featured in Marvel Comics publications, has appeared as a main character in multiple theatrical and made-for-television films.",
+  "numofrating": 3,
+  "releasedate": "7/8/2003",
+  "img": "https://wallpaperaccess.com/full/2452442.jpg",
+  "genre": "action"
+},{
+  "_id": {
+    "$oid": "6189061a39d3ccded6206ced"
+  },
+  "name": "3 idiots",
+  "rating": {
+    "$numberDecimal": "9"
+  },
+  "description": "Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently, even as the rest of the world called them \"idiots\".",
+  "numofrating": "101",
+  "releasedate": "7/8/2015",
+  "img": "https://upload.wikimedia.org/wikipedia/en/d/df/3_idiots_poster.jpg",
+  "genre": "comedy"
+},{
+  "_id": {
+    "$oid": "6189061a39d3ccded6206cee"
+  },
+  "name": "Harry Potter series",
+  "rating": {
+    "$numberDecimal": "9.2"
+  },
+  "description": "Harry Potter is a British film series based on the Harry Potter novels by author J. K. Rowling. The series is distributed by Warner Bros. and consists of eight fantasy films, beginning with Harry Potter and the Philosopher's Stone (2001) and culminating with Harry Potter and the Deathly Hallows � Part 2 (2011).",
+  "numofrating": "112",
+  "releasedate": "2/3/2008",
+  "img": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Harry_Potter_and_the_Philosopher%27s_Stone_banner.jpg/330px-Harry_Potter_and_the_Philosopher%27s_Stone_banner.jpg",
+  "genre": "scifi"
+},{
+  "_id": {
+    "$oid": "6189061a39d3ccded6206cef"
+  },
+  "name": "The Lion King",
+  "rating": {
+    "$numberDecimal": "8"
+  },
+  "description": "After the murder of his father, a young lion prince flees his kingdom only to learn the true meaning of responsibility and bravery.",
+  "numofrating": "65",
+  "releasedate": "4/5/2019",
+  "img": "https://upload.wikimedia.org/wikipedia/en/9/9d/Disney_The_Lion_King_2019.jpg",
+  "genre": "drama"
+},{
+  "_id": {
+    "$oid": "6189061a39d3ccded6206cf0"
+  },
+  "name": "Wanted",
+  "rating": {
+    "$numberDecimal": "6"
+  },
+  "description": "Radhe, a gangster with a mysterious past, kills others for money. He meets Jhanvi while she's doing fitness training and instantly falls in love with her. Even though their first meeting leads Jhanvi to think negatively about Radhe, she later begins to reciprocate his feelings.",
+  "numofrating": "74",
+  "releasedate": "9/5/2015",
+  "img": "https://upload.wikimedia.org/wikipedia/en/2/26/Wanted7.jpg",
+  "genre": "action"
+},{
+  "_id": {
+    "$oid": "6189061a39d3ccded6206cf1"
+  },
+  "name": "Venom",
+  "rating": {
+    "$numberDecimal": "7"
+  },
+  "description": "International terrorists attempt to kidnap a wealthy couple's child. Their plan comes unstuck when a deadly Black Mamba, sent by mistake instead of a harmless snake, escapes and the terrorists and several hostages are trapped in the boy's London home.",
+  "numofrating": "10",
+  "releasedate": "4/6/2020",
+  "img": "https://upload.wikimedia.org/wikipedia/en/1/18/Venom_%282018_film_poster%29.png"
+},{
+  "_id": {
+    "$oid": "6189061a39d3ccded6206cf2"
+  },
+  "name": "Cinderella",
+  "rating": {
+    "$numberDecimal": "9"
+  },
+  "description": "Cinderella has faith her dreams of a better life will come true. With help from her loyal mice friends and a wave of her Fairy Godmother's wand, Cinderella's rags are magically turned into a glorious gown and off she goes to the Royal Ball. But when the clock strikes midnight, the spell is broken, leaving a single glass slipper... the only key to the ultimate fairy-tale ending!",
+  "numofrating": "20",
+  "releasedate": "2/11/2020",
+  "img": "https://upload.wikimedia.org/wikipedia/en/c/c2/Cinderella_2015_official_poster.jpg"
+},{
+  "_id": {
+    "$oid": "6189061a39d3ccded6206cf3"
+  },
+  "name": "Dune",
+  "rating": {
+    "$numberDecimal": "8"
+  },
+  "description": "Feature adaptation of Frank Herbert's science fiction novel, about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.",
+  "numofrating": "10",
+  "releasedate": "10/15/2021",
+  "img": "https://upload.wikimedia.org/wikipedia/en/8/8e/Dune_%282021_film%29.jpg"
+},{
+  "_id": {
+    "$oid": "6189061a39d3ccded6206cf4"
+  },
+  "name": "Suryavanshi",
+  "rating": {
+    "$numberDecimal": "7.5"
+  },
+  "description": "Sooryavanshi traces the acts and serious antics of DCP Veer Sooryavanshi, the chief of the Anti-Terrorism Squad in India.",
+  "numofrating": "9",
+  "releasedate": "10/24/2021",
+  "img": "https://upload.wikimedia.org/wikipedia/en/5/5e/Sooryavanshi_film_poster.jpg"
+},{
+  "_id": {
+    "$oid": "6189061a39d3ccded6206cf5"
+  },
+  "name": "Sholay",
+  "rating": {
+    "$numberDecimal": "9.5"
+  },
+  "description": "After his family is murdered by a notorious and ruthless bandit, a former police officer enlists the services of two outlaws to capture the bandit",
+  "numofrating": "70",
+  "releasedate": "10/20/1980",
+  "img": "https://upload.wikimedia.org/wikipedia/en/5/52/Sholay-poster.jpg"
+},{
+  "_id": {
+    "$oid": "6189061a39d3ccded6206cf6"
+  },
+  "name": "Shershah",
+  "rating": {
+    "$numberDecimal": "9.5"
+  },
+  "description": "The story of PVC awardee Indian soldier Capt. Vikram Batra, who shot to fame and became a household name during the Kargil War in 1999",
+  "numofrating": "50",
+  "releasedate": "8/10/2021",
+  "img": "https://upload.wikimedia.org/wikipedia/en/9/91/Shershaah_film_poster.jpg"
+},{
+  "_id": {
+    "$oid": "6189061a39d3ccded6206cf7"
+  },
+  "name": "Lagaan",
+  "rating": {
+    "$numberDecimal": "9.8"
+  },
+  "description": "The people of a small village in Victorian India stake their future on a game of cricket against their ruthless British rulers.",
+  "numofrating": "8",
+  "releasedate": "4/8/2002",
+  "img": "https://upload.wikimedia.org/wikipedia/en/b/b6/Lagaan.jpg"
+},{
+  "_id": {
+    "$oid": "6189061a39d3ccded6206cf8"
+  },
+  "name": "Grave of the fireflies",
+  "rating": {
+    "$numberDecimal": "9.8"
+  },
+  "description": "A young boy and his little sister struggle to survive in Japan during World War II.",
+  "numofrating": "127",
+  "releasedate": "9/7/1978",
+  "img": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grave_of_the_Fireflies_Japanese_poster.jpg"
+},{
+  "_id": {
+    "$oid": "6189061a39d3ccded6206cf9"
+  },
+  "name": "Hobbit",
+  "rating": {
+    "$numberDecimal": "8"
+  },
+  "description": "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug.",
+  "numofrating": "120",
+  "releasedate": "6/6/2002",
+  "img": "https://upload.wikimedia.org/wikipedia/en/a/a9/The_Hobbit_trilogy_dvd_cover.jpg"
+},{
+  "_id": {
+    "$oid": "6189061a39d3ccded6206cfa"
+  },
+  "name": "The Lord of the Rings",
+  "rating": {
+    "$numberDecimal": "8"
+  },
+  "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+  "numofrating": "60",
+  "releasedate": "3/8/2008",
+  "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Hobbiton%2C_New_Zealand.jpg/330px-Hobbiton%2C_New_Zealand.jpg"
+},{
+  "_id": {
+    "$oid": "6189061a39d3ccded6206cfb"
+  },
+  "name": "Aladin",
+  "rating": {
+    "$numberDecimal": "7.8"
+  },
+  "description": "A kind-hearted street urchin and a power-hungry Grand Vizier vie for a magic lamp that has the power to make their deepest wishes come true.",
+  "numofrating": "60",
+  "releasedate": "9/16/2019",
+  "img": "https://upload.wikimedia.org/wikipedia/en/9/9a/Aladdin_%28Official_2019_Film_Poster%29.png"
+},{
+  "_id": {
+    "$oid": "6189061a39d3ccded6206cfc"
+  },
+  "name": "300",
+  "rating": {
+    "$numberDecimal": "6.9"
+  },
+  "description": "King Leonidas of Sparta and a force of 300 men fight the Persians at Thermopylae in 480 B.C.",
+  "numofrating": "40",
+  "releasedate": "8/26/2011",
+  "img": "https://upload.wikimedia.org/wikipedia/en/9/9a/Aladdin_%28Official_2019_Film_Poster%29.png"
+},{
+  "_id": {
+    "$oid": "6189061a39d3ccded6206cfd"
+  },
+  "name": "twilight2",
+  "rating": {
+    "$numberDecimal": "7.2"
+  },
+  "description": "When Bella Swan moves to a small town in the Pacific Northwest, she falls in love with Edward Cullen, a mysterious classmate who reveals himself to be a 108-year-old vampire.",
+  "numofrating": "400",
+  "releasedate": "1/2/2015",
+  "img": "https://upload.wikimedia.org/wikipedia/en/b/b6/Twilight_%282008_film%29_poster.jpg"
+},{
+  "_id": {
+    "$oid": "6189061a39d3ccded6206cfe"
+  },
+  "name": "Bahubali",
+  "rating": {
+    "$numberDecimal": "9.1"
+  },
+  "description": "In ancient India, an adventurous and daring man becomes involved in a decades-old feud between two warring peoples.",
+  "numofrating": "50",
+  "releasedate": "4/8/2018",
+  "img": "https://upload.wikimedia.org/wikipedia/en/d/dc/Baahubali_The_Beginning_Movie_Poster.jpg"
+},{
+  "_id": {
+    "$oid": "6189061a39d3ccded6206cff"
+  },
+  "name": "KGF",
+  "rating": {
+    "$numberDecimal": "9.2"
+  },
+  "description": "In the 1970s, a fierce rebel rises against brutal oppression and becomes the symbol of hope to legions of downtrodden people.",
+  "numofrating": "50",
+  "releasedate": "2/16/2018",
+  "img": "https://upload.wikimedia.org/wikipedia/en/c/cc/K.G.F_Chapter_1_poster.jpg"
+}]

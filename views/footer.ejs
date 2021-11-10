@@ -1,0 +1,31 @@
+<footer>
+    Made with ❣ by Group 19
+</footer>
+
+<script>
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("values");
+
+    output.innerHTML = slider.value;
+
+    slider.oninput = function () {
+        output.innerHTML = this.value;
+    }
+
+    function aftersubmit(e) {
+        var done = document.getElementById("done");
+        done.innerHTML = "Thankyou for you Submission";
+    }
+
+    var genre = document.getElementById("genre")
+    var opts = document.getElementById("opts")
+    genre.onmouseover = () => {
+        opts.style.display = "block";
+    }
+    genre.onmouseout = () => {
+        opts.style.display = "none";
+    }
+</script>
+</body>
+
+</html>
