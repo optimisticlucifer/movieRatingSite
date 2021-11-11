@@ -1,10 +1,10 @@
 <%- include("header") -%>
 <div id="movieInfo">
-    <h2>movies infomation</h2>
+    <h2>Movies infomation</h2>
     <div class="thumbnails">
         <% movies.forEach(element => { %>
             <div class="thumbnail">
-                <a href="/movie/<%= element.name %> "><img src="<%= element.img %>"  alt="<%= element.name %>" width="150px" height="150px"></a>
+                <a href="/movie/<%= element.name %> "><img src="<%= element.img %>"  alt="<%= element.name %>" width="186px" height="286px"></a>
                 <a href="/movie/<%= element.name %> "><h5><%= element.name %></h5></a>
                 <a href="/movie/<%= element.name %> "><p><%= element.rating %> </p></a>
                 <a href="/movie/<%= element.name %> "><p><%= element.releasedate %> </p></a>

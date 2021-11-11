@@ -67,7 +67,8 @@ app.post("/addmovie",(req,res)=>{
                     description: description,
                     img: imagelink,
                     releasedate: releasedate,
-                    numofrating:numofrating
+                    numofrating:numofrating,
+                    genre:genre
                     };
                 Movie.create(arr,(error,result)=>{
                     if (err){
@@ -87,14 +88,13 @@ app.post("/submit",(req,res)=>{
 
     const moviename=req.body.moviename;
     const ratinginput= parseInt(req.body.ratinginput);
-    Movie.find({"name":moviename.toLowerCase()},(err,foundmovie)=>{
+    Movie.find({"name":moviename},(err,foundmovie)=>{
         if (err) {
             console.log(err);
         } else {
             if (foundmovie) {
-                console.log(foundmovie);
                 const newrating=Math.ceil(((foundmovie[0].rating*foundmovie[0].numofrating)+ratinginput)/(foundmovie[0].numofrating+1));
-                Movie.updateOne({"name":moviename.toLowerCase()},{
+                Movie.updateOne({"name":moviename},{
                     rating: newrating,
                     numofrating: foundmovie[0].numofrating+1
                     },error=>{
